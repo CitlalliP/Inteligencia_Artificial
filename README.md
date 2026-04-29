@@ -3,6 +3,13 @@
 # Problema 1 — Matriz de Confusión + Métricas
 
 ## Descripción del problema
+Se tiene el siguiente resultado de un clasificador binario: TP = 50, FP = 10, FN = 5, TN = 35.
+
+Preguntas:
+
+Construir la matriz de confusión.
+Calcular Accuracy, Precision, Recall y F1-score.
+Discusión: ¿Qué métrica es más importante si es detección de enfermedad?
 
 Construcción y análisis de métricas de evaluación para un clasificador binario usando una matriz de confusión.
 
@@ -83,6 +90,14 @@ Aunque el Recall es prioritario para no perder enfermos, siempre se debe vigilar
 # Problema 2 — Métricas con Desbalance de Clases
 
 ## Descripción del problema
+Se tiene el siguiente dataset médico desbalanceado (solo 5 % de casos positivos).
+
+Preguntas:
+
+¿Accuracy es una buena métrica aquí?
+Calcula Recall y Precisión.
+¿Qué métrica priorizarías y por qué?
+¿Es un buen modelo?
 
 Análisis de un dataset médico desbalanceado donde la clase positiva representa un porcentaje pequeño del total.
 
@@ -184,6 +199,16 @@ Un modelo útil debería aspirar a Recall del 95–99 % sin destruir la Precisi�
 # Problema 3 — Error en Regresión (MSE vs MAE)
 
 ## Descripción del problema
+Se tienen las siguientes predicciones de precios:
+
+Real = 100 / Pred = 90
+Real = 200 / Pred = 210
+Real = 300 / Pred = 1000
+Calcular:
+
+MAE.
+MSE.
+¿Cuál penaliza más errores grandes?
 
 Comparación entre métricas de error utilizadas en regresión para evaluar predicciones numéricas.
 
@@ -233,56 +258,6 @@ Esto provoca que un error extremo tenga un impacto desproporcionadamente alto en
 
 ---
 
-# Corrección de fidelidad al PDF original
-
-A continuación se agregan explícitamente los enunciados completos de cada ejercicio tal como aparecen en el PDF original.
-
-## Ejercicio 1: Construcción básica
-
-**Enunciado completo:**
-
-Se tiene el siguiente resultado de un clasificador binario: TP = 50, FP = 10, FN = 5, TN = 35.
-
-Preguntas:
-
-1. Construir la matriz de confusión.
-2. Calcular Accuracy, Precision, Recall y F1-score.
-3. Discusión: ¿Qué métrica es más importante si es detección de enfermedad?
-
----
-
-## Ejercicio 2: Dataset médico – detección de enfermedad (solo 5 % positivos)
-
-**Enunciado completo:**
-
-Se tiene el siguiente dataset médico desbalanceado (solo 5 % de casos positivos).
-
-Preguntas:
-
-1. ¿Accuracy es una buena métrica aquí?
-2. Calcula Recall y Precisión.
-3. ¿Qué métrica priorizarías y por qué?
-4. ¿Es un buen modelo?
-
----
-
-## Ejercicio 3: Predicciones de precios
-
-**Enunciado completo:**
-
-Se tienen las siguientes predicciones de precios:
-
-* Real = 100 / Pred = 90
-* Real = 200 / Pred = 210
-* Real = 300 / Pred = 1000
-
-Calcular:
-
-1. MAE.
-2. MSE.
-3. ¿Cuál penaliza más errores grandes?
-
----
 
 ## Ejercicio 4: Interpretación de coeficientes
 
