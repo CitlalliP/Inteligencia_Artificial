@@ -89,6 +89,7 @@ Clima
         └── Sí → NO
 
 
+```
 ## 1. Entropía del Conjunto Total $H(S)$
 
 Analizamos la columna objetivo **«Jugar»**.
