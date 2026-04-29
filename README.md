@@ -1,27 +1,4 @@
 # Inteligencia_Artificial
-mira se lo pedi como en formato md
-# Extracción fiel del PDF en formato Markdown
-
-> Estructura preservada del documento original, manteniendo títulos, numeración, secciones y tablas en formato Markdown compatible con `.md`.
-
----
-
-# Página 1
-
-## UNAM – Facultad de Ciencias
-
-### Licenciatura en Ciencias de la Computación
-
-### Inteligencia Artificial
-
-**Dra. Jessica Sarahi Méndez Rincón**
-
-# Tema 4 – Actividad 1: Métricas y Aprendizaje Supervisado
-
-**Alumno:** Elizalde Maza Jesús Eduardo
-**Fecha:** 14–16 Abril 2026
-
----
 
 # Problema 1 — Matriz de Confusión + Métricas
 
@@ -49,13 +26,6 @@ Se tiene el siguiente resultado de un clasificador binario:
 1. Construir la matriz de confusión.
 2. Calcular Accuracy, Precision, Recall y F1-score.
 3. Discusión: ¿Qué métrica es más importante si es detección de enfermedad?
-
-### Datos
-
-* TP = 50
-* FP = 10
-* FN = 5
-* TN = 35
 
 ### Matriz de confusión
 
