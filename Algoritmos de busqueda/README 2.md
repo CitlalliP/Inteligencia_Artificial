@@ -57,26 +57,6 @@ Usando el dataset clásico del tiempo (Play Tennis) con 8 casos totales (4 Sí /
 
 ## Solución
 
-### Entropía inicial
-
-```text
-H(S) = 1.0
-```
-
-### Fórmula general
-
-```text
-IG(S,A) = H(S) − Σ(|Sv| / |S|) · H(Sv)
-```
-
-### Ganancias
-
-| Atributo | Ganancia de Información |
-| -------- | ----------------------- |
-| Clima    | 0.656                   |
-| Humedad  | 0.062                   |
-| Viento   | 0.049                   |
-
 ### Árbol final
 
 ```text
