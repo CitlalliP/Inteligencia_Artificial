@@ -189,7 +189,8 @@ Resultado:
 ```text
 Predicción final = Clase 1
 ```
-
+¿Por qué reduce varianza?
+Por la Ley de los grandes números, la descorrelación y el efecto "Sabiduria de las Masas"
 ---
 
 # Problema 4
